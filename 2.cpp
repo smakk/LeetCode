@@ -1,6 +1,11 @@
 /*
-    there is another way, in the while loop can use &&
+有另一种使用while循环和&&来做的方式
 
+1、while循环中未加入add
+
+2、add的再次计算以及新建ListNode的取值
+
+3、加入头结点来简化不断增加链表的操作，不加时则需要额外判断第一个节点加入的情况
 */
 
 class Solution {
